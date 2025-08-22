@@ -1,41 +1,7 @@
-### 1. Initial Setup
-
-- **Push code to GitHub**  
-  Push your project code to a GitHub repository.
-
-- **Create a Dockerfile**  
-  Write a `Dockerfile` in the root of your project to containerize the app.
-
-- **Create Kubernetes Deployemtn file**  
-  Make a file named 'llmops-k8s.yaml' 
-
-- **Create a VM Instance on Google Cloud**
-
-  - Go to VM Instances and click **"Create Instance"**
-  - Name: ``
-  - Machine Type:
-    - Series: `E2`
-    - Preset: `Standard`
-    - Memory: `16 GB RAM`
-  - Boot Disk:
-    - Change size to `256 GB`
-    - Image: Select **Ubuntu 24.04 LTS**
-  - Networking:
-    - Enable HTTP and HTTPS traffic
-
-- **Create the Instance**
-
-- **Connect to the VM**
-  - Use the **SSH** option provided to connect to the VM from the browser.
-
-
-
-### 2. Configure VM Instance
-
 - **Clone your GitHub repo**
 
   ```bash
-  git clone https://github.com/data-guru0/TESTING-9.git
+  git clone https://nishan129/llm-recomender.git
   ls
   cd TESTING-9
   ls  # You should see the contents of your project
