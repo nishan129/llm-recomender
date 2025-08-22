@@ -3,7 +3,7 @@
   ```bash
   git clone https://nishan129/llm-recomender.git
   ls
-  cd TESTING-9
+  cd llm-recomender
   ls  # You should see the contents of your project
   ```
 
